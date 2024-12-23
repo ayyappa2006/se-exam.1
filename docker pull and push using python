@@ -1,0 +1,15 @@
+C:\Users\91994\DockerDemo> docker build -t newapp .
+PS C:\Users\91994\DockerDemo> docker images
+PS C:\Users\91994\DockerDemo> docker run newapp
+10
+--- docker hub----
+C:\Users\91994\DockerDemo> docker login -u dharanijashu
+Password: 
+Login Succeeded
+C:\Users\91994\DockerDemo> docker login
+Authenticating with existing credentials...
+Login Succeeded
+PS C:\Users\91994\DockerDemo> docker tag newapp dharanijashu/myimages
+PS C:\Users\91994\DockerDemo> docker push dhararnijashu/myimages
+
+docker pull dharanijashu/myimages
